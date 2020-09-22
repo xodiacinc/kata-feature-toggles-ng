@@ -4,7 +4,12 @@
     <div><span>id: </span>{{hero.id}}</div>
     <div>
         <label>name:
-            <input [(ngModel)]="hero.name" placeholder="name"/>
+            <input id="edit-name" [(ngModel)]="hero.name" placeholder="name"/>
+        </label>
+    </div>
+    <div *ngIf="features.isOn('superpower')">
+        <label>superpower:
+            <input id="edit-superpower" [(ngModel)]="hero.superpower" placeholder="superpower"/>
         </label>
     </div>
 

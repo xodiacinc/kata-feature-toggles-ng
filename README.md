@@ -30,7 +30,7 @@ While not all assignments would warrant the use of a feature toggle in real life
 
 It is important to drive your changes to the system by tests, written in Jest.
 
-### Assignment 1: add a superpower
+### Assignment 1: add a superpower (done)
 
 Introduce the ability to store a superpower with the hero's details. The superpower should be editable in a similar way as the hero's name and stored as a text field.
 
@@ -48,4 +48,4 @@ Introduce the ability to add a hero
 
 ### Assignment 5: focus while editing
 
-As the information about the heroes grows, as well as the number of heroes itself, we need a specialized screen where we can entirely focus on editing a hero. 
+As the information about the heroes grows, as well as the number of heroes itself, we need a specialized screen where we can entirely focus on editing a hero.

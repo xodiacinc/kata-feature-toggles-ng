@@ -1,3 +1,3 @@
 export const FeatureFlags = {
-    addSuperPower: true
+    'superpower': true
 }
