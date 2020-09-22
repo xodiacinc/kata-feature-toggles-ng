@@ -40,7 +40,7 @@ In order to not clutter the screen, move the messages component to a sidebar on 
 
 ### Assignment 3: behold smart messages
 
-The smart message service provides a timestamp for every message. I only stores the 10 most recent messages that are not older than 5 minutes.
+The smart message service provides a timestamp for every message. I only stores the 10 most recent messages.
 
 ### Assignment 4: add hero
 
