@@ -8,13 +8,11 @@ import { FeatureService } from "../feature.service";
   templateUrl: './hero-detail.component.html',
   styleUrls: ['./hero-detail.component.scss']
 })
-export class HeroDetailComponent implements OnInit {
+export class HeroDetailComponent {
 
   @Input() hero: Hero;
 
-  constructor(private features: FeatureService) { }
-
-  ngOnInit() {
+  constructor(private features: FeatureService) {
   }
 
 }
