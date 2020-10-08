@@ -21,14 +21,8 @@ describe('App component', () => {
         return fixture
     }
 
-    it('does not apply .sidebar class to messages when sidebar feature is off', () => {
-        const fixture = createFixture(withFeatures())
-        expect(fixture.nativeElement.querySelector('#messages').classList).not.toContain('sidebar')
-    })
-
-    it('applies .sidebar class to messages when sidebar feature is on', () => {
-        const fixture = createFixture(withFeatures(['message sidebar']))
-        expect(fixture.nativeElement.querySelector('#messages').classList).toContain('sidebar')
+    it('needs a test...', () => {
+        fail('start here...')
     })
 
 })

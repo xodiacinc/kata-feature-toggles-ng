@@ -9,6 +9,7 @@ describe('Hero detail component', () => {
 
     it('does not show without selected hero', () => {
         const fixture = createFixture(withFeatures([]))
+        fixture.detectChanges()
         expect(fixture.nativeElement.querySelector('#hero-detail')).toBeNull()
     })
 
